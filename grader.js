@@ -65,7 +65,6 @@ var checkHtmlUrl = function(htmlurl, checksfile) {
 	    var present = $(checks[ii]).length > 0;
 	    out[checks[ii]] = present;
 	}
-//	console.log(checks);
 	outJson = JSON.stringify(out, null, 4);
 	console.log(outJson);
     });
